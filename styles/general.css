@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(200,181,149);
+    margin: 0px;
+}
+.kanit {
+    font-family: "Kanit", Arial, Helvetica, sans-serif;
+    color: rgb(63,42,14);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    place-items: center;
+    padding: 10px 10px 200px 10px;
+}

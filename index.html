@@ -4,49 +4,209 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DMAC Links</title>
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/intro.css">
+        <link rel="stylesheet" href="styles/links.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <main class="main">
+        <main>
             <header class="intro-container">
                 <div class="face-container">
-                    <a class="face-link" href="">
-                        <img class="face-img" src="" alt="">
-                    </a>
+                    <img class="face-img" src="images/prof.webp" alt="">
                 </div>
                 <div class="info-container">
-                    <h1 class="name">
-
+                    <h1 class="name kanit">
+                        Dominic Catania
                     </h1>
-                    <h2 class="spec">
-
+                    <h2 class="spec kanit">
+                        "DMAC"
+                    </h2>
+                    <h2 class="spec kanit">
+                        <a class="text-hover kanit" href="https://instagram.com/tamuengineering" target="_blank">
+                        @tamuengineering </a> '28
+                    </h2>
+                    <h2 class="spec kanit">
+                        Only you determine your success.
                     </h2>
                 </div>
                 <div class="quick-links-container">
-                    <a class="quick-link" href="">
-                        <img class="quick-link-img" src="" alt="">
-                    </a>
+                    <div class="quick-link-container">
+                        <a class="quick-link" href="https://github.com/DomC18" target="_blank">
+                            <img class="quick-link-img" src="images/github.png" alt="">
+                        </a>
+                    </div>
+                    <div class="quick-link-container">
+                        <a class="quick-link" href="https://instagram.com/domcatania" target="_blank">
+                            <img class="quick-link-img" src="images/instagram.png" alt="">
+                        </a>
+                    </div>
+                    <div class="quick-link-container">
+                        <a class="quick-link" href="https://x.com/dmacatania" target="_blank">
+                            <img class="quick-link-img" src="images/xtwitter.png" alt="">
+                        </a>
+                    </div>
+                    <div class="quick-link-container">
+                        <a class="quick-link" href="https://www.linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                            <img class="quick-link-img" src="images/linkedin.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </header>
             <section class="links-container">
-                <div class="link-container">
+                <div class="link-container" style="margin-top: 16px;">
                     <div class="link-basic-container">
-                        <a class="link" href="">
-    
+                        <a class="link kanit" href="https://domc18.github.io/Porty" target="_blank">
+                            Portfolio Website
                         </a>
-                        <button class="copy-link">
-    
+                        <input class="input-none" value="https://domc18.github.io/Porty" type="text" id="portfolio-website">
+                        <button onclick="copyLink('portfolio-website', 'Copied Portfolio Link!')" class="copy-link-btn kanit">
+                            Copy Link
                         </button>
                     </div>
+                    <div class="link-spec-container">
+                        <p class="link-spec kanit">
+                            Features elements of my life in education, programming projects, 
+                            achievements, and specialties; includes resume
+                        </p>
+                    </div>
                     <div class="link-img-container">
-                        <a class="link" href="">
-                            <img class="link-img" src="" alt="">
+                        <a class="link" href="https://domc18.github.io/Porty" target="_blank">
+                            <img class="link-img" src="images/logored.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link-basic-container">
+                        <a class="link kanit" href="https://github.com/DomC18" target="_blank">
+                            Github
+                        </a>
+                        <input class="input-none" value="https://github.com/DomC18" type="text" id="github-website">
+                        <button onclick="copyLink('github-website', 'Copied Github Link!')" class="copy-link-btn kanit">
+                            Copy Link
+                        </button>
+                    </div>
+                    <div class="link-spec-container">
+                        <p class="link-spec kanit">
+                            Github holds my history of projects in one place accessible to the public, which
+                            use HTML & CSS, Python, Java, and Django
+                        </p>
+                    </div>
+                    <div class="link-img-container">
+                        <a class="link" href="https://github.com/DomC18" target="_blank">
+                            <img class="insta-img" src="images/githubtransparent.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link-basic-container">
+                        <a class="link kanit" href="https://instagram.com/domcatania" target="_blank">
+                            Instagram
+                        </a>
+                        <input class="input-none" value="https://instagram.com/domcatania" type="text" id="instagram-website">
+                        <button onclick="copyLink('instagram-website', 'Copied Instagram Link!')" class="copy-link-btn kanit">
+                            Copy Link
+                        </button>
+                    </div>
+                    <div class="link-spec-container">
+                        <p class="link-spec kanit">
+                            Here you can find some of my short-form content in reels and posts.
+                        </p>
+                    </div>
+                    <div class="link-img-container">
+                        <a class="link" href="https://instagram.com/domcatania" target="_blank">
+                            <img class="insta-img" src="images/instagramtransparent.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link-basic-container">
+                        <a class="link kanit" href="https://x.com/dmacatania" target="_blank">
+                            X
+                        </a>
+                        <input class="input-none" value="https://x.com/dmacatania" type="text" id="x-website">
+                        <button onclick="copyLink('x-website', 'Copied X Link!')" class="copy-link-btn kanit">
+                            Copy Link
+                        </button>
+                    </div>
+                    <div class="link-spec-container">
+                        <p class="link-spec kanit">
+                            Here you can discover me stalking Elon's account and occassionally
+                            posting controversial opinions about JavaScript..
+                        </p>
+                    </div>
+                    <div class="link-img-container">
+                        <a class="link" href="https://x.com/dmacatania" target="_blank">
+                            <img class="insta-img" src="images/xtwittertransparent.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link-basic-container">
+                        <a class="link kanit" href="https://linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                            LinkedIn
+                        </a>
+                        <input class="input-none" value="https://linkedin.com/in/dominic-catania-086594291/" type="text" id="linkedin-website">
+                        <button onclick="copyLink('linkedin-website', 'Copied LinkedIn Link!')" class="copy-link-btn kanit">
+                            Copy Link
+                        </button>
+                    </div>
+                    <div class="link-spec-container">
+                        <p class="link-spec kanit">
+                            Here you can learn more about my professional experience and background
+                            in web development and robotics.
+                        </p>
+                    </div>
+                    <div class="link-img-container">
+                        <a class="link" href="https://linkedin.com/in/dominic-catania-086594291/" target="_blank">
+                            <img class="insta-img" src="images/linkedintransparent.webp" alt="">
                         </a>
                     </div>
                 </div>
             </section>
             <footer class="footer-container">
-
+                <div class="contact-info-container">
+                    <div class="contact-container">
+                        <p class="contact-label kanit">
+                            Contact Me
+                        </p>
+                    </div>
+                    <div class="actions-container">
+                        <div class="action">
+                            <a class="action-label kanit" href="https://mail.google.com/mail/?view=cm&fs=1&to=dom@catania.com" target="_blank">
+                                dom@catania.com
+                            </a>
+                        </div>
+                        <div class="action">
+                            <p class="action-label kanit" style="margin-bottom: 10px;">
+                                (682)-582-5795
+                            </p>
+                        </div>
+                        <div class="action">
+                            <p class="action-label kanit" style="font-size: 20px;">
+                                Contacting me through email is the best way to reach
+                                me. I am always open to discussing projects, opportunities,
+                                or anything else.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-img-container">
+                    <img class="contact-img" src="images/cityboy.jpeg" alt="">
+                </div>
             </footer>
         </main>
+        <script>
+            function copyLink(id, alerttext) {
+                var copyText = document.getElementById(id);
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+                alert(alerttext);
+            }
+        </script>
     </body>
 </html>
